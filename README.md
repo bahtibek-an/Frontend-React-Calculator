@@ -1,44 +1,56 @@
-# Instruction how to send project to review
-- [Russian](https://github.com/bahtibek-an/Instruction-how-to-send-project-to-review/edit/main/README.md)
-# Frontend-React-Calculator
+# ReactJS Calculator
 
-Remember to git add && git commit && git push each exercise!
-
-We will execute your function with our test(s), please DO NOT PROVIDE ANY TEST(S) in your file
-
-For each exercise, you will have to create a folder and in this folder, you will have additional files that contain your work. 
-Folder names are provided at the beginning of each exercise under `submit directory` and specific file names for each exercise are also provided at the beginning of each exercise under `submit file(s).`
+## Task
+Create a simple calculator application using ReactJS that allows users to perform basic arithmetic operations.
 
 ## Description
-We have seen so far what React is and what it is capable of. To summarise in brief we got to know what React web-apps are, React Components, Props, States and lifecycle of a React component. We also created a basic clock application using all of the following. But React is a javascript library to build flexible User Interfaces, and we have not created any so far. So it is time for us to step into the real world of React by creating a simple yet impactful project.
+This ReactJS calculator is a straightforward application for performing addition, subtraction, multiplication, and division operations. It features a clean and intuitive user interface, providing a seamless experience for users to perform calculations.
 
-## SPECIFICATIONS
-Create a ReactJS Application.
-It will be a single route application.
+## Installation
+To install and run the project locally, follow these steps:
 
-You will be able to perform all simple operation: `+-/*`
+1. **Clone the repository:**
 
-It should display the result of the operation.
+   ```bash
+   git clone https://github.com/your-username/react-calculator.git
+   ```
 
-You should be able to do multiple operation.
-You should be able to clear the buffer.
+2. **Navigate to the project directory:**
 
-## REQUIREMENTS
-No more than 1 components per file.
-Additionals components will be in `src/components/`
+   ```bash
+   cd react-calculator
+   ```
 
-CSS will be in a file associated to the component: css for ExampleComponent.js will be in ExampleComponent.css.
+3. **Install dependencies:**
 
-Your Readme will have to describe the project.
+   ```bash
+   npm install
+   ```
 
-On the css/colors/design, you can be creative.
+## Usage
+**Run the application:**
 
-Your project will be hosted in the cloud (AWS/Gcloud/Azure/Netlify/...) and you write the url in `my_reactjs_calculator_url.txt`. Nothing more, just the URL.
+   ```bash
+   npm start
+   ```
+The application will be accessible at `http://localhost:3000` by default.
 
+1. **Performing Calculations:**
+   - Use the numeric buttons (0-9) to input numbers.
+   - Use the operation buttons (+, -, *, /) to perform arithmetic operations.
+   - Press the "=" button to calculate and display the result.
 
-It should look like:
+2. **Clearing and Deleting:**
+   - Press the "AC" button to clear the entire calculation.
+   - Press the "DEL" button to delete the last entered digit.
 
-<img src="https://storage.googleapis.com/qwasar-public/track-web/my_reactjs_calculator.png" width="30%"/>
+3. **Decimal Point:**
+   - Use the "." button to input decimal points for decimal numbers.
 
-Your .gitignore must remove node_modules/
+4. **Responsive Design:**
+   - The calculator is designed to be responsive and user-friendly on various devices.
+
+Feel free to explore and use this ReactJS calculator for your everyday calculations!
+
+## Core Team
 
