@@ -1,0 +1,73 @@
+:root {
+  --black: #000000;
+  --white: #ffffff;
+}
+
+.App {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+}
+
+.calculator {
+  background-size: cover;
+  padding: 50px;
+  border-radius: 15px;
+  background-color: var(--black);
+  color: var(--white);
+  overflow: hidden;
+}
+
+.calc {
+  width: 320px;
+}
+
+#display {
+  border-radius: 15px;
+  text-align: right;
+  padding: 20px;
+  width: 275px;
+  height: 45px;
+  font-size: 25px;
+  margin: 0px 0px 10px 0px;
+}
+
+.buttons {
+  color: var(--white);
+  transition: 0.7s;
+  background-color: var(--black);
+  outline: none;
+  cursor: pointer;
+  font-size: 35px;
+  appearance: none;
+  border: none;
+  height: 80px;
+  width: 80px;
+}
+.buttons:hover {
+  opacity: 0.9;
+  background-color: rgba(128, 128, 128, 0.5);
+  border-radius: 20px;
+}
+
+.equal {
+  color: var(--white);
+  transition: 0.7s;
+  background-color: var(--black);
+  outline: none;
+  cursor: pointer;
+  font-size: 35px;
+  appearance: none;
+  border: none;
+  height: 80px;
+  width: 80px;
+  width: 160px;
+}
+.equal:hover {
+  opacity: 0.9;
+  background-color: rgba(128, 128, 128, 0.5);
+  border-radius: 20px;
+}
