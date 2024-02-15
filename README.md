@@ -16,3 +16,12 @@ Open the file in VScode.
 then enter the code from the "Start Project" folder shown above into a computer or VScode terminal.
 
 
+# Contact the developer🧑🏻‍💻
+📷INSTAGRAM:godzi.bi
+
+💻GIT HUB: GODZI1100
+
+👾Discord: dary666
+
+🕳🕳🕳🕳🕳🕳🕳🕳🕳🕳🕳🕳🕳🕳🕳🕳🕳🕳🕳
+
