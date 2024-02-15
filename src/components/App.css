@@ -1,0 +1,140 @@
+
+Body {
+    background-image: url(../img/jET9FZ.gif);
+    background-size: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.App {
+    width: 500px;
+    height: 1000px;
+    background: black;
+    color: white;
+    border-radius: 30px;
+    padding: 14px;
+    margin-top: 5px;
+    border-style: solid;
+    border-color: white;
+    margin-bottom: 29px;
+    position: relative;
+}
+
+.top {
+  height: 210px;
+  padding: 0 20px;
+  justify-content: space-between;
+  display: flex;
+  
+}
+
+.display {
+    font-size: 130px;
+    margin-bottom: 20px;
+    font-weight: 300;
+    text-align: right;
+}
+
+.buttons {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+
+}
+
+.bottom {
+    position: absolute;
+    width: 185px;
+    height: 5px;
+    background: white;
+    bottom: 15px;
+    left: 50%;
+    border-radius: 4px;
+    transform: translateX(-50%);
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CODER INST: @GODZI.BI 
+ASTRUM ACADEMY CODER*/
