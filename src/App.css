@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  padding: 0;
+  
+  
+}
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightpink;
+  height: 100vh;
+}
+.calc-wrapper{
+  background-color: white;
+  width: 400px; 
+  border-radius: 16px;
+  padding: 30px;
+}
+.row{
+  display: flex;
+
+}
+.field{
+  background-color:white;
+  width: 380px;
+  height: 70px;
+  border-radius: 5px;
+  text-align: right;
+  padding-bottom: 10px;
+  
+}
+.input-field{
+  height: 70px;
+  width: 100%;
+  margin-left: 5px;
+  background-color: beige;
+  border-radius: 7px;
+  text-align: end;
+  font-size: 25px
+}
+button{
+  width: 100px;
+  height: 60px;
+  margin: 3px;
+  border-radius: 7px;
+  background-color: hotpink;
+}
+.clear{
+  width: 50%;
+}
