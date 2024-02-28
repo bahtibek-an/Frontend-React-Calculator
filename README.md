@@ -1,6 +1,6 @@
 # Welcome to My Calculator
 Welcome fellow developer, this is where you can see a calculator.It is written in React(a library of Javascript). <br>
-Link to project: https://react-calculator-qw.netlify.app/
+Link to project: 
 
 ## Task
 In this task i created a calculator app. It worked in 2 main files (App.js and App.css). In App.js where i used onclick button and in App.css i wrote style of my calculator.
