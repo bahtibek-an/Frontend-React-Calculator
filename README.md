@@ -7,4 +7,4 @@
 *adds, multiplies, and subtracts the numbers that have been dropped.
 
 # Instalition
-*If you click on the live server below, it will show you what I did
+*you run through the terminal
