@@ -1,44 +1,21 @@
-# Instruction how to send project to review
-- [Russian](https://github.com/bahtibek-an/Instruction-how-to-send-project-to-review/edit/main/README.md)
-# Frontend-React-Calculator
+# Welcome My Calculator 
+Hello, this readme about My Calculator project.
+## Task
+A calculator is a machine that allows people to perform mathematical operations more easily. For example, most calculators perform operations such as addition, subtraction, multiplication, and division. Some also do square roots, and more sophisticated calculators can help with calculations and function graphs. Calculators can be found everywhere.
 
-Remember to git add && git commit && git push each exercise!
-
-We will execute your function with our test(s), please DO NOT PROVIDE ANY TEST(S) in your file
-
-For each exercise, you will have to create a folder and in this folder, you will have additional files that contain your work. 
-Folder names are provided at the beginning of each exercise under `submit directory` and specific file names for each exercise are also provided at the beginning of each exercise under `submit file(s).`
-
-## Description
-We have seen so far what React is and what it is capable of. To summarise in brief we got to know what React web-apps are, React Components, Props, States and lifecycle of a React component. We also created a basic clock application using all of the following. But React is a javascript library to build flexible User Interfaces, and we have not created any so far. So it is time for us to step into the real world of React by creating a simple yet impactful project.
-
-## SPECIFICATIONS
-Create a ReactJS Application.
-It will be a single route application.
-
-You will be able to perform all simple operation: `+-/*`
-
-It should display the result of the operation.
-
-You should be able to do multiple operation.
-You should be able to clear the buffer.
-
-## REQUIREMENTS
-No more than 1 components per file.
-Additionals components will be in `src/components/`
-
-CSS will be in a file associated to the component: css for ExampleComponent.js will be in ExampleComponent.css.
-
-Your Readme will have to describe the project.
-
-On the css/colors/design, you can be creative.
-
-Your project will be hosted in the cloud (AWS/Gcloud/Azure/Netlify/...) and you write the url in `my_reactjs_calculator_url.txt`. Nothing more, just the URL.
-
-
-It should look like:
-
-<img src="https://storage.googleapis.com/qwasar-public/track-web/my_reactjs_calculator.png" width="30%"/>
-
-Your .gitignore must remove node_modules/
+## Description 
+The app is written in reactjs about calculator i.e add subtract etc
+The application component shows a calculator interface with a display input field and a set of keys for numbers, arihmetic operators, clear,back,and equals.
+The UseState hook is used to control the state (result) of the calculator display.
+The handleClick function combines the value of the pressed button with the current result state.
+The clear function returns the result state to an empty string.
+The Backspace function removes the last character from the result position.
+## Installation
+You must have Reactjs installed on your system to use the app.
+You also need to configure the database with the necessary tables and data. Please refer to your database documentation for instructions on configuring your database.
+## Usage
+ To use the program, you can execute Reactjs code and interact with predefined requests.
+ here we are talking about addition and multiplication. for example, if you add 5 + 2 and press the equal sign, the correct answer will be 7, or if you make a mistake in the number 2 and want to write another number, press the c button, if you want to delete everything, press the clear button
+ ## The Core Team 
+ I complete this project myself.
 
