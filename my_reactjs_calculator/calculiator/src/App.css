@@ -1,0 +1,88 @@
+body{
+  background: rgb(223, 168, 2);
+}
+
+.container{
+  width: 100%;
+  height: 100vh;
+  background: url(./img/bgc.jpeg);
+  animation: animated 5s  infinite;
+  background-size: cover;
+  background-repeat: no-repeat; 
+}
+
+@keyframes animated{
+  100%{
+   filter: scale(1.1);
+  }
+}
+
+.kalkulyator{  
+ background-color: rgba(19, 249, 11, 0.334);
+  backdrop-filter: blur(30px);
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border-radius: 30px;
+  box-shadow: inset 0 0 10px;
+  height: 430px;
+  width: 390px;
+  border:  10px solid rgb(0, 0, 0);
+}
+
+
+.kalkulyator:active{
+  -webkit-box-shadow: 90px 18px 33px -1px rgba(4, 23, 234, 1);
+-moz-box-shadow: 90px 18px 33px -1px rgba(4, 23, 234, 1);
+box-shadow: 90px 18px 33px -1px rgba(4, 23, 234, 1);
+}
+
+input{
+  padding: 10px;
+  outline: none;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 10px;
+  text-align: end;
+  color: rgb(0, 0, 0);
+  
+}
+
+.screen{
+  margin-bottom: 20px;
+  background: transparent;
+  backdrop-filter: blur(50px);
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+.push{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-gap: 20px;
+  padding: 20px;
+}
+
+button{
+  font-size: 25px;
+  width: 60px;
+  height: 40px;
+  border-radius: 20px;
+  background: rgb(83, 4, 132);
+  backdrop-filter: blur(50px);
+  outline: none;
+  border: none;
+  color: rgb(0, 0, 0);
+  background-image: linear-gradient(to right, #2913ea, #0cefcd, #967bb1, #000000);
+    box-shadow: 0 4px 15px 0 rgba(126, 52, 161, 0.75);
+}
+
+button:active{
+  transform: scale(0.9);
+  box-shadow: 0 5px 10px rgb(239, 178, 10);
+  font-weight: bold;
+    
+}
